@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- For hangman -->
+    <h1>Hangman</h1>
+    <div id="main" class="main">
+      <svg
+        height="200"
+        width="300"
+        id="hangman"
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+      ></svg>
+      <div class="correct-letters" id="correctLetters"></div>
+      <div class="wrong-letters" id="wrongLetters"></div>
+      <div class="notification" id="notification">
+        <h3 id="message">Won</h3>
+        <button id="playBtn" class="play-btn">Play Again</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
